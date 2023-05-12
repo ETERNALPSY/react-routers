@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1 className='mb-4'>Rick and Morty</h1>
+      <Link to="/" className='text-decoration-none'><h1 className='mb-4'>Rick and Morty</h1></Link>
 
       <Routes>
         <Route path='/' element={<Home />} />
